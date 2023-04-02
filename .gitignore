@@ -3,3 +3,4 @@ images/*.log
 images/*.pdf
 images/*.dvi
 .ipynb_checkpoints/
+*.log

@@ -1,0 +1,9 @@
+\documentclass{standalone}
+\usepackage{qcircuit}
+\usepackage{braket}
+\begin{document}
+\Qcircuit {
+    \lstick{\ket{0}_n}      & \gate{H} & \multigate{1}{U_{f_{aN}}}   & \qw    & \gate{QFT} & \meter   \\
+    \lstick{\ket{0}_{n_0}}  & \qw      & \ghost{U_{f_{aN}}}          & \meter & \qw        & \qw      \\
+}
+\end{document}
