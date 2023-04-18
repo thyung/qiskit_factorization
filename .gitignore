@@ -4,3 +4,4 @@ images/*.pdf
 images/*.dvi
 .ipynb_checkpoints/
 *.log
+.vscode/
